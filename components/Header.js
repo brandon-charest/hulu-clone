@@ -8,7 +8,7 @@ import {
   UserIcon
 } from '@heroicons/react/outline'
 
-export default function Header() {
+const Header = () => {
   return (
     <header className="flex flex-col sm:flex-row m-5 justify-between items-center h-auto">
       <div className="flex flex-grow justify-evenly max-w-2xl">
@@ -28,3 +28,5 @@ export default function Header() {
     </header>
   )
 }
+
+export default Header
