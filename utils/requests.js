@@ -1,6 +1,6 @@
 const API_KEY = process.env.API_KEY
 
-const requestObj = {
+export default {
   fetchTrending: {
     title: 'Trending',
     url: `/trending/all/week?api_key=${API_KEY}&language=en-US`
@@ -82,5 +82,3 @@ const requestObj = {
     url: `/trending/movie/week?api_key=${API_KEY}&with_genres=37`
   }
 }
-
-export default requestObj
