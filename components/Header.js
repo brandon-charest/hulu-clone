@@ -16,7 +16,7 @@ const Header = () => {
         <HeaderItem title="TRENDING" Icon={FireIcon} />
         <HeaderItem title="COLLECTION" Icon={CollectionIcon} />
         <HeaderItem title="SEARCH" Icon={SearchIcon} />
-        <HeaderItem title="USER" Icon={UserIcon} />
+        <HeaderItem title="SIGN IN" Icon={UserIcon} href="/api/auth/login" />
       </div>
       <Image
         className="object-contain"
